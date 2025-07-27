@@ -1,5 +1,5 @@
 const adminController = async (req, res) => {
-  res.send("Welcome to admin page");
+  res.send("Welcome  admin page");
   try {
   } catch (error) {
     console.error("Error during admin operation:", error);
@@ -7,4 +7,4 @@ const adminController = async (req, res) => {
   }
 };
 
-module.exports = adminController;
+module.exports = { adminController };
